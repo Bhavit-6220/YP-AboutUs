@@ -1,0 +1,133 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+#alink{
+    background-color: #F88379 !important; 
+    border-radius: 5%;
+}
+#nav-link2{
+    margin: 0 5px;
+}
+#nav-link2:hover{
+    background-color: black;
+    color: white !important;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+#nav-link1{
+    margin: 0 5px;
+}
+#nav-link1:hover{
+    border-radius: 5% !important;
+    background-color: black !important;
+    color: white !important;
+    transition: 0.3s !important;
+}
+.heading{
+    font-size: 6em !important;
+    font-family: 'Oleo Script Swash Caps', cursive; 
+    color: black !important;
+    text-align: center !important;
+    margin: 0;
+}
+footer {
+    bottom: 0;
+}
+.img{
+    width: 25em;
+}
+#img1{
+    margin: 0;
+    padding: 0;
+}
+.heading2{
+    font-family: 'Oleo Script Swash Caps', cursive !important; 
+    color: black !important;
+    text-align: center;
+}
+#ar{
+    padding: 0;
+    margin: 0 5%;
+    left: 0%;
+    display: inline-block;
+    font-size: 5em;
+}
+#ar2{
+    padding: auto;
+    margin: auto;
+    right: 0%;
+    display: inline-block;
+    font-size: 5em;
+}
+#ar3{
+    padding: 0;
+    margin: 0 5%;
+    left: 0%;
+    display: inline-block;
+    font-size: 5em;
+}
+#h1 span{
+    font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  animation: waviy 1s 10;
+  animation-delay: calc(.1s * var(--i));
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+.trans--grow{
+    -webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+    transition: width 1s  ease-out;
+    width : 0%;
+  }
+  .grow{
+    width:100%;
+  }
+  .hr1{
+    margin-left:0;
+  }
+  hr{
+    margin-top: 20px;
+    padding: 2px 0;
+    border: none;
+    background-color: rgb(250, 150, 0);
+    letter-spacing: 5px;
+  }
+.img5{
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes waviy {
+    0%,40%,100% {
+        transform: translateY(0)
+      }
+      20% {
+        transform: translateY(-20px)
+      }
+  }
+@keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
